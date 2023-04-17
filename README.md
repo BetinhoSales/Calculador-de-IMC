@@ -1,2 +1,6 @@
-# Calculador-de-IMC
-Um script em Python que calcula o Índice de Massa Corporal (IMC) a partir do peso e altura inseridos pelo usuário. O IMC é uma medida utilizada para avaliar se uma pessoa está com o peso adequado para sua altura.
+altura = float(input("Digite a sua altura em metros: "))
+peso = float(input("Digite o seu peso em quilogramas: "))
+
+imc = peso / altura ** 2
+
+print("Seu IMC é: ", round(imc, 2))
